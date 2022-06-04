@@ -1,6 +1,8 @@
 body {
-    background: lightblue
+    background: lightblue;
+    font-family: Verdana, arial;
 }
+
 .photo {
     border: 1px solid blueviolet;
     border-radius: 50%;
@@ -9,6 +11,15 @@ body {
     color: blue;   
 }
 
+#title {
+    font-size: large;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: underline;
+    color: darkred;
+}
 .post_title {
     font-size: 16px;
     font-style: italic;
@@ -27,7 +38,15 @@ body {
     margin: 0;
     margin-bottom: 15px;
     border-radius: 7px;
+    text-transform: capitalize;
 }
 .post_image {
     margin-bottom: 15px;
+}
+.contact_list {
+    list-style-type: circle;
+    padding-left: 15px;
+}
+.contact_list li a {
+    text-decoration: none;
 }
