@@ -1,6 +1,8 @@
 body {
     background: lightblue;
     font-family: Verdana, arial;
+    max-width: 900px;
+    margin: auto;
 }
 
 .photo {
@@ -12,7 +14,7 @@ body {
 }
 
 #title {
-    font-size: large;
+    font-size: x-large;
     text-transform: uppercase;
 }
 
@@ -21,7 +23,7 @@ a {
     color: darkred;
 }
 .post_title {
-    font-size: 16px;
+    font-size: 15px;
     font-style: italic;
     margin: 0;
     margin-bottom: 15px;
@@ -38,10 +40,11 @@ a {
     margin: 0;
     margin-bottom: 15px;
     border-radius: 7px;
-    text-transform: capitalize;
+    text-align: left;
 }
 .post_image {
     margin-bottom: 15px;
+    width: 30%;
 }
 .contact_list {
     list-style-type: circle;
